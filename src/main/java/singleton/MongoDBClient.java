@@ -13,8 +13,8 @@ public class MongoDBClient {
     {
         try
         {
-
             mongoClient = MongoClients.create(System.getProperty("mongodb.uri"));
+            //mongoClient = MongoClients.create("mongodb://localhost:27017");
 
         }
         catch( MongoException me)
